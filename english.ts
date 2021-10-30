@@ -1,25 +1,25 @@
 import { Translations } from "..";
 
 export const EnglishTranslations: Translations = {
-    WelcomeName: "Welcome to skeld.net",
-    WelcomeMessage: `
-Worlds first custom Among Us server
-Type /help to get started
-Current gamemode: @{gamemode[0]}
+WelcomeName: "Bienvenido/a a skeld.net",
+WelcomeMessage: `
+El primer servidor personalizado de Among Us del mundo
+Escribe /help (/ayuda) para empezar
+Modo de juego actual: @{gamemode[0]}
 
-Subscribe to our Patreon https://www.patreon.com/skeld_net to get a coloured in-game name!`.trim(),
-    SetImpostorsInvalidCount:
-        "Invalid player count, please enter a number between 1 and 3",
-    SetImpostorsSuccess: "Impostor count was set to @{number[0]}",
-    ZombiesIncomingIn: "Zombies are incoming in @{number[0]} seconds",
-    GamemodeChangedTo: "Gamemode changed to @{gamemode[0]}",
-    SquidGameLightsInstructions:
-        "Press the meeting button before the timer runs out",
-    SquidGameDalgonaInstructions:
-        "Complete all your tasks before the timer runs out",
-    SquidGameTugOfWarInstructions:
-        "Move in the correct direction to pull the other team",
-    StartingIn: "Starting in: ",
-    MaxPlayersModeSwitch:
-        "The host switched the mode and now this room is full",
+¡Suscríbete a nuestro Patreon https://www.patreon.com/skeld_net para tener un nombre de usuario colorido!`.trim(),
+SetImpostorsInvalidCount:
+"Número de jugadores inválido, por favor introduce un número entre 1 y 3",
+SetImpostorsSuccess: "El número de impostores es @{number[0]}",
+ZombiesIncomingIn: "Los zombies llegan en @{number[0]} segundos",
+GamemodeChangedTo: "Modo de juego cambiado a @{gamemode[0]}",
+SquidGameLightsInstructions:
+"Pulsa el botón de reunión antes de que el tiempo se acabe",
+SquidGameDalgonaInstructions:
+"Completa todas tus tareas antes de que el tiempo se acabe",
+SquidGameTugOfWarInstructions:
+"Muévete en la dirección correcta para tirar del otro equipo",
+StartingIn: "Empezando en: ",
+MaxPlayersModeSwitch:
+"El anfitrión cambió el modo y ahora esta sala está llena",
 };
